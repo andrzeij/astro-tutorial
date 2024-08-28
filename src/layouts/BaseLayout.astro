@@ -12,7 +12,7 @@ const { pageTitle, textColor = "black", textSize = "2.5rem" } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
-    <style define:vars={{textColor, textSize}}>
+    <style define:vars={{ textColor, textSize }}>
       h1 {
         color: var(--textColor);
         font-size: var(--textSize);
